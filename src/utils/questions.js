@@ -1,0 +1,118 @@
+export const questions = {
+  quantitative: [
+    {
+      id: 1,
+      question: "If a train travels 360 km in 4 hours, what is its speed in m/s?",
+      options: ["20 m/s", "25 m/s", "30 m/s", "35 m/s"],
+      correct: 2,
+      explanation: "Speed = 360km/4h = 90 km/h = 90 × (1000/3600) = 25 m/s",
+    },
+    {
+      id: 2,
+      question: "What is 15% of 480?",
+      options: ["60", "72", "84", "96"],
+      correct: 1,
+      explanation: "15% of 480 = (15/100) × 480 = 72",
+    },
+    {
+      id: 3,
+      question: "A shopkeeper sells an item for ₹720 at a 20% profit. What is the cost price?",
+      options: ["₹580", "₹600", "₹620", "₹640"],
+      correct: 1,
+      explanation: "CP = SP / (1 + profit%) = 720 / 1.20 = ₹600",
+    },
+    {
+      id: 4,
+      question: "If 8 workers complete a job in 12 days, how many days will 6 workers take?",
+      options: ["14 days", "16 days", "18 days", "20 days"],
+      correct: 1,
+      explanation: "Workers × Days = constant. 8×12 = 6×D → D = 96/6 = 16 days",
+    },
+    {
+      id: 5,
+      question: "The ratio of two numbers is 3:5 and their sum is 96. Find the larger number.",
+      options: ["36", "48", "60", "72"],
+      correct: 2,
+      explanation: "3x + 5x = 96 → 8x = 96 → x = 12. Larger = 5×12 = 60",
+    },
+  ],
+  logical: [
+    {
+      id: 1,
+      question: "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+      options: ["40", "42", "44", "46"],
+      correct: 1,
+      explanation: "Differences are 4,6,8,10,12. So next = 30+12 = 42",
+    },
+    {
+      id: 2,
+      question: "If MANGO is coded as OCPIQ, how is APPLE coded?",
+      options: ["CRRNG", "CRNNG", "CRPNG", "CRRNG"],
+      correct: 0,
+      explanation: "Each letter is shifted by +2 positions. A→C, P→R, P→R, L→N, E→G",
+    },
+    {
+      id: 3,
+      question: "All cats are animals. Some animals are dogs. Which conclusion is valid?",
+      options: [
+        "All cats are dogs",
+        "Some cats are dogs",
+        "Some animals are cats",
+        "No cats are dogs"
+      ],
+      correct: 2,
+      explanation: "Since all cats are animals, some animals must be cats.",
+    },
+    {
+      id: 4,
+      question: "Find the odd one out: 121, 144, 169, 196, 200",
+      options: ["121", "196", "200", "169"],
+      correct: 2,
+      explanation: "All others are perfect squares (11²,12²,13²,14²). 200 is not.",
+    },
+    {
+      id: 5,
+      question: "If + means ÷, × means -, - means ×, ÷ means +, find: 8 + 4 - 3 × 2 ÷ 1",
+      options: ["5", "6", "7", "8"],
+      correct: 0,
+      explanation: "8÷4×3-2+1 = 2×3-2+1 = 6-2+1 = 5",
+    },
+  ],
+  verbal: [
+    {
+      id: 1,
+      question: "Choose the word most similar in meaning to ELOQUENT:",
+      options: ["Quiet", "Articulate", "Confused", "Hesitant"],
+      correct: 1,
+      explanation: "Eloquent means fluent and persuasive in speech. Articulate is the closest synonym.",
+    },
+    {
+      id: 2,
+      question: "Choose the antonym of BENEVOLENT:",
+      options: ["Kind", "Generous", "Malevolent", "Caring"],
+      correct: 2,
+      explanation: "Benevolent means well-meaning and kind. Its antonym is Malevolent (evil).",
+    },
+    {
+      id: 3,
+      question: "Fill in the blank: The teacher was _____ with the student's progress.",
+      options: ["satisfy", "satisfied", "satisfying", "satisfaction"],
+      correct: 1,
+      explanation: "'Was satisfied' is correct — past tense passive form.",
+    },
+    {
+      id: 4,
+      question: "Identify the correctly spelled word:",
+      options: ["Accomodate", "Accommodate", "Acomodate", "Accommadate"],
+      correct: 1,
+      explanation: "Accommodate has double 'c' and double 'm'.",
+    },
+    {
+      id: 5,
+      question: "Choose the best synonym for AMBIGUOUS:",
+      options: ["Clear", "Vague", "Certain", "Precise"],
+      correct: 1,
+      explanation: "Ambiguous means unclear or having multiple meanings. Vague is the best synonym.",
+    },
+  ],
+}
