@@ -10,9 +10,7 @@
     --color-accent: 139 92 246;
   }
 
-  * {
-    @apply border-border;
-  }
+  
 
   body {
     @apply bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100;
