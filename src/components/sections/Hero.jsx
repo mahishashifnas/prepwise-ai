@@ -33,12 +33,9 @@ function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-          <a
-            href="/signup"
-            className="w-full sm:w-auto btn-primary text-base px-8 py-3 rounded-xl"
-          >
-            Start Preparing Free
-          </a>
+          <a href="/dashboard" className="w-full sm:w-auto btn-primary text-base px-8 py-3 rounded-xl">
+  Start Preparing Free
+</a>
           <a
             href="#features"
             className="w-full sm:w-auto btn-secondary text-base px-8 py-3 rounded-xl"

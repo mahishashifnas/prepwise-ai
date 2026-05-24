@@ -110,9 +110,9 @@ function Navbar() {
             <a href="/login" className="btn-secondary text-sm text-center">
               Log in
             </a>
-            <a href="/signup" className="btn-primary text-sm text-center">
-              Get Started Free
-            </a>
+            <a href="/dashboard" className="btn-primary text-sm">
+  Get Started Free
+</a>
           </div>
         </div>
       )}
