@@ -5,6 +5,7 @@ import Signup from './pages/Signup'
 import Dashboard from './pages/Dashboard'
 import Aptitude from './pages/Aptitude'
 import Interview from './pages/Interview'
+import Resume from './pages/Resume'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/aptitude" element={<Aptitude />} />
         <Route path="/interview" element={<Interview />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
     </Router>
   )
